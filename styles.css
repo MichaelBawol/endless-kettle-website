@@ -238,6 +238,15 @@ a:hover {
   overflow: hidden;
 }
 
+.kfc__availability {
+  display: inline-block;
+  font-family: var(--ff-accent);
+  font-size: 1.05rem;
+  color: var(--clr-gold);
+  letter-spacing: 0.03em;
+  margin-bottom: var(--space-xs);
+}
+
 /* ── REAL IMAGE STYLES ─────────────────────────────────── */
 .about__img img {
   width: 100%;
