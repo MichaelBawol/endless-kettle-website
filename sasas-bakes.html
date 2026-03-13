@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sasa's Bakes | The Endless Kettle — Keighley, West Yorkshire</title>
+  <meta name="description" content="Handcrafted bakes by Saskia — Polish pastries, paczki, cheesecakes, cinnamon rolls, and custom cakes. Baked fresh every morning at The Endless Kettle.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=4">
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- NAVIGATION                              -->
+  <!-- ════════════════════════════════════════ -->
+  <nav class="nav nav--scrolled" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-icon">&#9749;</span>
+        <span class="nav__logo-text">The Endless Kettle</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+            <ul class="nav__links" id="navLinks">
+        <li class="nav__dropdown">
+          <a href="#" class="nav__dropdown-toggle">Menu <svg class="nav__chevron" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="nav__dropdown-menu">
+            <li><a href="breakfast-and-lunch-menu.html">Breakfast &amp; Lunch</a></li>
+            <li><a href="evening-menu.html">Evening Menu</a></li>
+            <li><a href="korean-fried-chicken.html">Korean Fried Chicken</a></li>
+            <li><a href="sasas-bakes.html">Sasa's Bakes</a></li>
+          </ul>
+        </li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="the-brand.html">Our Story</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://reservation.carbonaraapp.com/United-Kingdom/Keighley/The-Endless-Kettle" class="nav__cta" target="_blank" rel="noopener">Reserve Your Table</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- PAGE HERO                               -->
+  <!-- ════════════════════════════════════════ -->
+  <header class="page-hero">
+    <div class="page-hero__overlay"></div>
+    <div class="page-hero__content">
+      <h1 class="page-hero__title">Sasa's Bakes</h1>
+      <p class="page-hero__subtitle">Handcrafted with love each morning</p>
+    </div>
+  </header>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- INTRO — MEET SASKIA                     -->
+  <!-- ════════════════════════════════════════ -->
+  <section class="section bakery" id="bakery-intro">
+    <div class="container">
+      <div class="bakery__grid">
+        <div class="bakery__visual" data-reveal>
+          <img src="images/bakes-1.jpg" alt="Sasa's handcrafted bakes" loading="lazy" class="bakery__img">
+        </div>
+        <div class="bakery__text" data-reveal>
+          <span class="section__label">In-House Bakery</span>
+          <h2 class="section__title">Meet Saskia</h2>
+          <p class="bakery__intro">Meet Saskia — our founder's mum and the heart of our in-house bakery. For Sasa, baking is not just a skill but an art form, and passion is her secret ingredient.</p>
+          <p style="color: var(--clr-text-muted); margin-bottom: var(--space-sm); font-size: 1.05rem;">She blends traditional Polish recipes with modern twists, creating bakes that are both comforting and exciting. Every item is handcrafted with the finest ingredients each morning, ensuring nothing but the freshest treats make it to your table.</p>
+          <p style="color: var(--clr-text-muted); margin-bottom: var(--space-sm); font-size: 1.05rem;">We also offer healthy options, including vegan and vegetarian choices, so everyone can enjoy a little something special.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- BAKE CATEGORIES                         -->
+  <!-- ════════════════════════════════════════ -->
+  <section class="section" id="bakery-categories" style="background: var(--clr-bg-alt);">
+    <div class="container">
+      <div class="section__header" data-reveal>
+        <span class="section__label">What We Bake</span>
+        <h2 class="section__title">Our Creations</h2>
+        <p class="section__desc">From traditional Polish pastries to indulgent cheesecakes, every bake is a small masterpiece.</p>
+      </div>
+      <div class="menu__grid">
+        <div class="menu__card" data-reveal>
+          <div class="menu__card-header">
+            <h3>&#127849; Polish Pastries &amp; Paczki</h3>
+            <span class="menu__card-tag">Traditional</span>
+          </div>
+          <p>Traditional buttery buns and Polish donuts that bring the flavours of Poland to Keighley. From classic glazed varieties to adventurous seasonal fillings, each one is a taste of home.</p>
+          <img src="images/bakes-3.jpg" alt="Polish Pastries and Paczki" loading="lazy" style="width: 100%; border-radius: var(--radius); margin-top: var(--space-sm); aspect-ratio: 4/3; object-fit: cover;">
+        </div>
+        <div class="menu__card" data-reveal>
+          <div class="menu__card-header">
+            <h3>&#127856; Cakes &amp; Sweet Treats</h3>
+            <span class="menu__card-tag">Fan Favourite</span>
+          </div>
+          <p>Fluffy cinnamon rolls, freshly baked muffins, and decadent cakes for any occasion. Whether it's a morning pick-me-up or an afternoon indulgence, there's always something tempting.</p>
+          <img src="images/bakes-4.jpg" alt="Cakes and sweet treats" loading="lazy" style="width: 100%; border-radius: var(--radius); margin-top: var(--space-sm); aspect-ratio: 4/3; object-fit: cover;">
+        </div>
+        <div class="menu__card" data-reveal>
+          <div class="menu__card-header">
+            <h3>&#129472; Cheesecakes</h3>
+            <span class="menu__card-tag">Our Pride &amp; Joy</span>
+          </div>
+          <p>Our pride and joy. Choose from the classic Krakowian-style cheesecake or the indulgent Basque variety. Each one is made with the freshest ingredients and lots of love.</p>
+          <img src="images/bakes-5.jpg" alt="Cheesecakes" loading="lazy" style="width: 100%; border-radius: var(--radius); margin-top: var(--space-sm); aspect-ratio: 4/3; object-fit: cover;">
+        </div>
+        <div class="menu__card" data-reveal>
+          <div class="menu__card-header">
+            <h3>&#127874; Custom Orders</h3>
+            <span class="menu__card-tag">Made for You</span>
+          </div>
+          <p>Birthdays, anniversaries, or any special event — Sasa will create something beautiful just for you. Every custom order is crafted with care and tailored to your wishes.</p>
+          <img src="images/bakes-6.jpg" alt="Custom cake orders" loading="lazy" style="width: 100%; border-radius: var(--radius); margin-top: var(--space-sm); aspect-ratio: 4/3; object-fit: cover;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- DIETARY & CUSTOM ORDER CTA              -->
+  <!-- ════════════════════════════════════════ -->
+  <section class="section" id="bakery-cta">
+    <div class="container">
+      <div class="section__header" data-reveal>
+        <span class="section__label">Something for Everyone</span>
+        <h2 class="section__title">Dietary Options &amp; Custom Orders</h2>
+        <p class="section__desc">We cater to a variety of dietary needs including vegan and vegetarian choices. All of our bakes are made with care and the finest ingredients.</p>
+      </div>
+      <div class="events__info" data-reveal>
+        <p>Interested in a custom cake or have a special dietary request? Get in touch with Sasa and we'll create something perfect for you.</p>
+        <a href="mailto:info@endlesskettle.com" class="btn btn--primary">Enquire About Custom Orders</a>
+        <p class="events__note">Please allow at least 5 days for custom orders. Contact us at <a href="mailto:info@endlesskettle.com">info@endlesskettle.com</a> with your ideas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- FOOTER                                  -->
+  <!-- ════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <span class="footer__logo">&#9749; The Endless Kettle</span>
+          <p>A family-run cafe bistro bar in the heart of Keighley, West Yorkshire.</p>
+        </div>
+        <div class="footer__links">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="breakfast-and-lunch-menu.html">Breakfast &amp; Lunch Menu</a>
+          <a href="evening-menu.html">Evening Menu</a>
+          <a href="sasas-bakes.html">Sasa's Bakes</a>
+          <a href="gallery.html">Food Gallery</a>
+          <a href="korean-fried-chicken.html">Korean Fried Chicken</a>
+          <a href="the-brand.html">Our Story</a>
+          <a href="events.html">Events</a>
+          <a href="reviews.html">Reviews</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="footer__contact">
+          <h4>Contact</h4>
+          <p>61 North Street, Keighley<br>West Yorkshire, BD21 3SL</p>
+          <p><a href="tel:01535670045">01535 670045</a></p>
+          <p><a href="mailto:info@endlesskettle.com">info@endlesskettle.com</a></p>
+          <div class="contact__socials" style="margin-top: var(--space-sm);">
+            <a href="https://www.facebook.com/endlesskettle/" target="_blank" rel="noopener" class="contact__social" aria-label="Facebook">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/theendlesskettle/" target="_blank" rel="noopener" class="contact__social" aria-label="Instagram">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2024 The Endless Kettle Cafe Bistro Bar. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js?v=4"></script>
+</body>
+</html>

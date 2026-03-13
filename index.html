@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Endless Kettle | Cafe Bistro Bar — Keighley, West Yorkshire</title>
+  <meta name="description" content="Family-run cafe bistro bar in a restored Victorian bank. Classic English breakfasts, Polish-inspired bakes, and Korean fried chicken in the heart of Keighley.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=4">
+
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "The Endless Kettle Cafe Bistro Bar",
+    "image": "",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "61 North Street",
+      "addressLocality": "Keighley",
+      "addressRegion": "West Yorkshire",
+      "postalCode": "BD21 3SL",
+      "addressCountry": "GB"
+    },
+    "telephone": "01535 670045",
+    "email": "info@endlesskettle.com",
+    "servesCuisine": ["English", "Polish", "Korean"],
+    "priceRange": "$$",
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday","Thursday","Friday","Saturday"], "opens": "10:00", "closes": "15:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "15:00" }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "bestRating": "5",
+      "ratingCount": "200"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- NAVIGATION                              -->
+  <!-- ════════════════════════════════════════ -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-icon">&#9749;</span>
+        <span class="nav__logo-text">The Endless Kettle</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+            <ul class="nav__links" id="navLinks">
+        <li class="nav__dropdown">
+          <a href="#" class="nav__dropdown-toggle">Menu <svg class="nav__chevron" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="nav__dropdown-menu">
+            <li><a href="breakfast-and-lunch-menu.html">Breakfast &amp; Lunch</a></li>
+            <li><a href="evening-menu.html">Evening Menu</a></li>
+            <li><a href="korean-fried-chicken.html">Korean Fried Chicken</a></li>
+            <li><a href="sasas-bakes.html">Sasa's Bakes</a></li>
+          </ul>
+        </li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="the-brand.html">Our Story</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://reservation.carbonaraapp.com/United-Kingdom/Keighley/The-Endless-Kettle" class="nav__cta" target="_blank" rel="noopener">Reserve Your Table</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- HERO                                    -->
+  <!-- ════════════════════════════════════════ -->
+  <header class="hero" id="hero">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__tag">Cafe &middot; Bistro &middot; Bar</p>
+      <h1 class="hero__title">
+        <span class="hero__title-line">The Endless</span>
+        <span class="hero__title-line hero__title-line--accent">Kettle</span>
+      </h1>
+      <p class="hero__subtitle">A family-run gem in a restored Victorian bank.<br>Classic brunch, Polish soul, Korean fire.</p>
+      <div class="hero__actions">
+        <a href="breakfast-and-lunch-menu.html" class="btn btn--primary">Explore the Menu</a>
+        <a href="https://reservation.carbonaraapp.com/United-Kingdom/Keighley/The-Endless-Kettle" class="btn btn--outline" target="_blank" rel="noopener">Reserve a Table</a>
+      </div>
+      <div class="hero__scroll-hint">
+        <span>Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- MARQUEE                                 -->
+  <!-- ════════════════════════════════════════ -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>Brunch &middot; Lunch &middot; Korean Fried Chicken &middot; Polish Pastries &middot; Gluten-Free Options &middot; Handmade Cakes &middot; Cocktails &middot; Wine &middot; Craft Beer &middot; Private Events &middot;</span>
+      <span>Brunch &middot; Lunch &middot; Korean Fried Chicken &middot; Polish Pastries &middot; Gluten-Free Options &middot; Handmade Cakes &middot; Cocktails &middot; Wine &middot; Craft Beer &middot; Private Events &middot;</span>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- ABOUT TEASER                            -->
+  <!-- ════════════════════════════════════════ -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__images">
+          <div class="about__img about__img--main" data-reveal>
+            <img src="images/hero-venue.jpg" alt="The Endless Kettle Victorian bank building" loading="lazy">
+          </div>
+          <div class="about__img about__img--accent" data-reveal>
+            <img src="images/food-6.jpg" alt="Food at The Endless Kettle" loading="lazy">
+          </div>
+        </div>
+        <div class="about__text" data-reveal>
+          <span class="section__label">Our Story</span>
+          <h2 class="section__title">Born During a Storm,<br>Built with Heart</h2>
+          <p>The Endless Kettle was founded in 2020 by Michael, right in the midst of the Covid pandemic. What started as a bold leap of faith has grown into a beloved neighbourhood gathering place in a beautifully restored Victorian bank on North Street, Keighley.</p>
+          <p>Our kitchen blends classic English breakfasts and lunches with a modern twist and a touch of Polish influence. Every guest is treated like family.</p>
+          <div class="about__values">
+            <div class="about__value">
+              <span class="about__value-icon">&#10084;&#65039;</span>
+              <h4>Family-Run</h4>
+              <p>Every dish made with love</p>
+            </div>
+            <div class="about__value">
+              <span class="about__value-icon">&#127758;</span>
+              <h4>Three Cultures</h4>
+              <p>English, Polish &amp; Korean</p>
+            </div>
+            <div class="about__value">
+              <span class="about__value-icon">&#127963;</span>
+              <h4>Heritage Space</h4>
+              <p>Restored Victorian bank</p>
+            </div>
+          </div>
+          <div style="margin-top: var(--space-md);">
+            <a href="the-brand.html" class="btn btn--primary">Read Our Story</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- MENU HIGHLIGHTS                         -->
+  <!-- ════════════════════════════════════════ -->
+  <section class="section menu" id="menu">
+    <div class="container">
+      <div class="section__header" data-reveal>
+        <span class="section__label">What We Serve</span>
+        <h2 class="section__title">Menu Highlights</h2>
+        <p class="section__desc">Classic English fare with Polish soul and Korean fire. Here are a few of our favourites.</p>
+      </div>
+
+      <div class="menu__grid">
+        <div class="menu__card" data-reveal>
+          <div class="menu__card-header">
+            <h3>The Rustic Breakfast</h3>
+            <span class="menu__card-tag">Fan Favourite</span>
+          </div>
+          <p>Our signature full English with a rustic twist. Locally sourced sausages, crispy bacon, free-range eggs, grilled tomatoes, mushrooms, beans, toast &amp; black pudding.</p>
+        </div>
+        <div class="menu__card" data-reveal>
+          <div class="menu__card-header">
+            <h3>Croque Madame</h3>
+            <span class="menu__card-tag">Chef's Pick</span>
+          </div>
+          <p>A magnificent stack of toasted brioche, ham, melted gruyere, bechamel sauce, topped with a perfectly fried free-range egg.</p>
+        </div>
+        <div class="menu__card" data-reveal>
+          <div class="menu__card-header">
+            <h3>Korean Rice Bowl</h3>
+            <span class="menu__card-tag">Gluten Free</span>
+          </div>
+          <p>Steamed rice with Korean fried chicken, pickled vegetables, sesame, spring onion, and gochujang mayo.</p>
+        </div>
+        <div class="menu__card" data-reveal>
+          <div class="menu__card-header">
+            <h3>Gourmet Burgers</h3>
+          </div>
+          <p>Hand-pressed beef patty, brioche bun, house slaw, and seasoned fries. Choose from classic, blue cheese, or Korean BBQ glaze.</p>
+        </div>
+      </div>
+
+      <div class="menu__note" data-reveal>
+        <p>We cater to various dietary needs including vegetarian, vegan, and gluten-free options. Please inform your server of any allergies.</p>
+        <div style="margin-top: var(--space-sm); display: flex; gap: var(--space-sm); justify-content: center; flex-wrap: wrap;">
+          <a href="breakfast-and-lunch-menu.html" class="btn btn--primary">Breakfast &amp; Lunch Menu</a>
+          <a href="evening-menu.html" class="btn btn--outline" style="color: var(--clr-accent); border-color: var(--clr-accent);">Evening Menu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- KOREAN FRIED CHICKEN FEATURE            -->
+  <!-- ════════════════════════════════════════ -->
+  <section class="section kfc" id="kfc">
+    <div class="kfc__bg"></div>
+    <div class="container">
+      <div class="kfc__grid">
+        <div class="kfc__text" data-reveal>
+          <span class="section__label section__label--light">Our Signature</span>
+          <h2 class="section__title section__title--light">Korean Fried<br>Chicken</h2>
+          <p class="kfc__tagline">Bold yet Comforting. Flavour Rich. Delicious.</p>
+          <p>Succulent chicken pieces marinated in a special blend of spices, double-fried to achieve the perfect crunch, and coated in a rich, spicy glaze. 100% gluten free and made fresh in-house.</p>
+          <div class="kfc__badges">
+            <span class="kfc__badge">100% Gluten Free</span>
+            <span class="kfc__badge">Double Fried</span>
+            <span class="kfc__badge">Made with Love</span>
+          </div>
+          <a href="korean-fried-chicken.html" class="btn btn--primary">Discover Our KFC</a>
+        </div>
+        <div class="kfc__visual" data-reveal>
+          <img src="images/kfc-1.jpg" alt="Korean Fried Chicken" loading="lazy" class="kfc__img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- SASA'S BAKES TEASER                     -->
+  <!-- ════════════════════════════════════════ -->
+  <section class="section bakery" id="bakery">
+    <div class="container">
+      <div class="bakery__grid">
+        <div class="bakery__visual" data-reveal>
+          <img src="images/bakes-2.jpg" alt="Sasa's Bakes" loading="lazy" class="bakery__img">
+        </div>
+        <div class="bakery__text" data-reveal>
+          <span class="section__label">In-House Bakery</span>
+          <h2 class="section__title">Sasa's Bakes</h2>
+          <p class="bakery__intro">Meet Saskia — our founder's mum and our in-house baker. She brings Polish tradition to every creation, blending traditional recipes with modern twists. For Sasa, baking is not just a skill but an art form, and passion is her secret ingredient.</p>
+
+          <div class="bakery__items">
+            <div class="bakery__item">
+              <h4>Polish Pastries &amp; Paczki</h4>
+              <p>Traditional buttery buns and Polish donuts, from classic glazed to adventurous seasonal varieties.</p>
+            </div>
+            <div class="bakery__item">
+              <h4>Cheesecakes</h4>
+              <p>Classic Krakowian or indulgent Basque style. Made with the freshest ingredients.</p>
+            </div>
+          </div>
+          <div style="margin-top: var(--space-md);">
+            <a href="sasas-bakes.html" class="btn btn--primary">See All Bakes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- EVENTS TEASER                           -->
+  <!-- ════════════════════════════════════════ -->
+  <section class="section events" id="events">
+    <div class="container">
+      <div class="section__header" data-reveal>
+        <span class="section__label">Private Dining</span>
+        <h2 class="section__title">Host Your Event With Us</h2>
+        <p class="section__desc">Our beautiful Victorian space is perfect for celebrations, corporate gatherings, and special occasions.</p>
+      </div>
+      <div class="events__grid">
+        <div class="events__card" data-reveal>
+          <span class="events__card-icon">&#127874;</span>
+          <h3>Birthday Parties</h3>
+          <p>Celebrate in style with bespoke menus and our stunning dining room.</p>
+        </div>
+        <div class="events__card" data-reveal>
+          <span class="events__card-icon">&#128188;</span>
+          <h3>Corporate Events</h3>
+          <p>Impress clients and colleagues in a unique, atmospheric setting.</p>
+        </div>
+        <div class="events__card" data-reveal>
+          <span class="events__card-icon">&#127880;</span>
+          <h3>Special Occasions</h3>
+          <p>Anniversaries, engagements, or any reason to gather. We'll make it unforgettable.</p>
+        </div>
+      </div>
+      <div class="events__info" data-reveal>
+        <a href="events.html" class="btn btn--primary">Learn More About Events</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- REVIEWS (FEATURED)                      -->
+  <!-- ════════════════════════════════════════ -->
+  <section class="section reviews" id="reviews">
+    <div class="container">
+      <div class="section__header" data-reveal>
+        <span class="section__label">What People Say</span>
+        <h2 class="section__title">Guest Reviews</h2>
+        <div class="reviews__rating">
+          <div class="reviews__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <span>4.8 / 5 on Google</span>
+        </div>
+      </div>
+      <div class="reviews__grid">
+        <div class="reviews__card" data-reveal>
+          <div class="reviews__card-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"By far the best breakfast I've ever had. The restaurant is beautiful, the atmosphere is relaxing, and the food is first class."</p>
+          <span class="reviews__card-author">— Tim H.W.</span>
+        </div>
+        <div class="reviews__card" data-reveal>
+          <div class="reviews__card-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Amazing food quality, hospitality second to none, enormous portion sizes. 10 out of 10!"</p>
+          <span class="reviews__card-author">— Courtney A.</span>
+        </div>
+        <div class="reviews__card" data-reveal>
+          <div class="reviews__card-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Incredible. Beautiful building, wonderful ambience, fantastic staff. Comparable to the best cafes anywhere."</p>
+          <span class="reviews__card-author">— S. Donnelly</span>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: var(--space-lg);" data-reveal>
+        <a href="reviews.html" class="btn btn--primary">See All Reviews</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- CONTACT / HOURS (COMPACT)               -->
+  <!-- ════════════════════════════════════════ -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact__grid">
+        <div class="contact__info" data-reveal>
+          <span class="section__label">Find Us</span>
+          <h2 class="section__title">Come Say Hello</h2>
+          <div class="contact__details">
+            <div class="contact__detail">
+              <h4>Address</h4>
+              <p>61 North Street<br>Keighley, West Yorkshire<br>BD21 3SL</p>
+            </div>
+            <div class="contact__detail">
+              <h4>Opening Hours</h4>
+              <p>Wednesday — Saturday<br>10:00 AM — 3:00 PM<br>(Last orders 1:30 PM)</p>
+              <p class="contact__closed">Sunday — Tuesday: Closed</p>
+            </div>
+            <div class="contact__detail">
+              <h4>Get in Touch</h4>
+              <p><a href="tel:01535670045">01535 670 045</a></p>
+              <p><a href="mailto:info@endlesskettle.com">info@endlesskettle.com</a></p>
+            </div>
+            <div style="display: flex; gap: var(--space-sm); flex-wrap: wrap; margin-top: var(--space-sm);">
+              <a href="https://reservation.carbonaraapp.com/United-Kingdom/Keighley/The-Endless-Kettle" class="btn btn--primary" target="_blank" rel="noopener">Book a Table</a>
+              <a href="contact.html" class="btn btn--outline" style="color: var(--clr-accent); border-color: var(--clr-accent);">Full Contact Page</a>
+            </div>
+            <div class="contact__socials">
+              <a href="https://www.facebook.com/endlesskettle/" target="_blank" rel="noopener" class="contact__social" aria-label="Facebook">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/theendlesskettle/" target="_blank" rel="noopener" class="contact__social" aria-label="Instagram">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="contact__map" data-reveal>
+          <div class="contact__map-frame">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2352.0!2d-1.9047!3d53.8680!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTPCsDUyJzA0LjgiTiAxwrA1NCcxNy4wIlc!5e0!3m2!1sen!2suk!4v1600000000000"
+              width="100%" height="100%" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              title="The Endless Kettle location map">
+            </iframe>
+          </div>
+          <a href="https://www.google.com/maps/dir//61+North+Street,+Keighley+BD21+3SL" target="_blank" rel="noopener" class="btn btn--primary contact__directions-btn">Get Directions</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- FOOTER                                  -->
+  <!-- ════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <span class="footer__logo">&#9749; The Endless Kettle</span>
+          <p>A family-run cafe bistro bar in the heart of Keighley, West Yorkshire.</p>
+        </div>
+        <div class="footer__links">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="breakfast-and-lunch-menu.html">Breakfast &amp; Lunch Menu</a>
+          <a href="evening-menu.html">Evening Menu</a>
+          <a href="korean-fried-chicken.html">Korean Fried Chicken</a>
+          <a href="sasas-bakes.html">Sasa's Bakes</a>
+          <a href="gallery.html">Food Gallery</a>
+          <a href="the-brand.html">Our Story</a>
+          <a href="events.html">Events</a>
+          <a href="reviews.html">Reviews</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="https://reservation.carbonaraapp.com/United-Kingdom/Keighley/The-Endless-Kettle" target="_blank" rel="noopener">Reserve a Table</a>
+        </div>
+        <div class="footer__contact">
+          <h4>Contact</h4>
+          <p>61 North Street, Keighley<br>BD21 3SL</p>
+          <p><a href="tel:01535670045">01535 670 045</a></p>
+          <p><a href="mailto:info@endlesskettle.com">info@endlesskettle.com</a></p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 The Endless Kettle Cafe Bistro Bar. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js?v=4"></script>
+</body>
+</html>

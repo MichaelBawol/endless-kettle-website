@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Gallery | The Endless Kettle — Keighley, West Yorkshire</title>
+  <meta name="description" content="Browse our food gallery at The Endless Kettle. From rustic breakfasts to Korean fried chicken, see the dishes that make us a Keighley favourite.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=4">
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- NAVIGATION                              -->
+  <!-- ════════════════════════════════════════ -->
+  <nav class="nav nav--scrolled" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-icon">&#9749;</span>
+        <span class="nav__logo-text">The Endless Kettle</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+            <ul class="nav__links" id="navLinks">
+        <li class="nav__dropdown">
+          <a href="#" class="nav__dropdown-toggle">Menu <svg class="nav__chevron" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="nav__dropdown-menu">
+            <li><a href="breakfast-and-lunch-menu.html">Breakfast &amp; Lunch</a></li>
+            <li><a href="evening-menu.html">Evening Menu</a></li>
+            <li><a href="korean-fried-chicken.html">Korean Fried Chicken</a></li>
+            <li><a href="sasas-bakes.html">Sasa's Bakes</a></li>
+          </ul>
+        </li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="the-brand.html">Our Story</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://reservation.carbonaraapp.com/United-Kingdom/Keighley/The-Endless-Kettle" class="nav__cta" target="_blank" rel="noopener">Reserve Your Table</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- PAGE HERO                               -->
+  <!-- ════════════════════════════════════════ -->
+  <header class="page-hero">
+    <div class="page-hero__overlay"></div>
+    <div class="page-hero__content">
+      <span class="page-hero__tag">Visual Feast</span>
+      <h1 class="page-hero__title">Food Gallery</h1>
+      <p class="page-hero__subtitle">Enjoy the food images while you are picking the one for you</p>
+    </div>
+  </header>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- GALLERY GRID                            -->
+  <!-- ════════════════════════════════════════ -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section__header" data-reveal>
+        <span class="section__label">From Our Kitchen</span>
+        <h2 class="section__title">Our Dishes</h2>
+        <p class="section__desc">A taste of what awaits you at The Endless Kettle. Each dish crafted with care and love.</p>
+      </div>
+
+      <div class="gallery__grid">
+        <div class="gallery__item" data-reveal>
+          <img src="images/gallery-1.jpg" alt="Rustic Breakfast" loading="lazy">
+        </div>
+        <div class="gallery__item gallery__item--tall" data-reveal>
+          <img src="images/gallery-2.jpg" alt="Korean Fried Chicken" loading="lazy">
+        </div>
+        <div class="gallery__item" data-reveal>
+          <img src="images/gallery-3.jpg" alt="Dutch Baby" loading="lazy">
+        </div>
+        <div class="gallery__item gallery__item--tall" data-reveal>
+          <img src="images/gallery-4.jpg" alt="Croque Madame" loading="lazy">
+        </div>
+        <div class="gallery__item" data-reveal>
+          <img src="images/gallery-5.jpg" alt="Turkish Eggs" loading="lazy">
+        </div>
+        <div class="gallery__item" data-reveal>
+          <img src="images/gallery-6.jpg" alt="Buldak" loading="lazy">
+        </div>
+        <div class="gallery__item gallery__item--tall" data-reveal>
+          <img src="images/gallery-7.jpg" alt="Cheesecake" loading="lazy">
+        </div>
+        <div class="gallery__item" data-reveal>
+          <img src="images/gallery-8.jpg" alt="Polish Pastries" loading="lazy">
+        </div>
+        <div class="gallery__item" data-reveal>
+          <img src="images/gallery-9.jpg" alt="Tempura Prawns" loading="lazy">
+        </div>
+        <div class="gallery__item gallery__item--tall" data-reveal>
+          <img src="images/gallery-10.jpg" alt="KC Burger" loading="lazy">
+        </div>
+        <div class="gallery__item" data-reveal>
+          <img src="images/gallery-11.jpg" alt="Granola Bowl" loading="lazy">
+        </div>
+        <div class="gallery__item" data-reveal>
+          <img src="images/gallery-12.jpg" alt="Miso Butter Beans" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- CTA                                     -->
+  <!-- ════════════════════════════════════════ -->
+  <section class="section cta-section" id="reserve">
+    <div class="container">
+      <div class="section__header" data-reveal>
+        <span class="section__label">Hungry Yet?</span>
+        <h2 class="section__title">Come Taste It For Yourself</h2>
+        <p class="section__desc">Reserve your table and experience these dishes in our beautiful Victorian dining room.</p>
+        <div style="margin-top: var(--space-md);">
+          <a href="https://reservation.carbonaraapp.com/United-Kingdom/Keighley/The-Endless-Kettle" class="btn btn--primary" target="_blank" rel="noopener">Reserve Your Table</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════ -->
+  <!-- FOOTER                                  -->
+  <!-- ════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <span class="footer__logo">&#9749; The Endless Kettle</span>
+          <p>A family-run cafe bistro bar in the heart of Keighley, West Yorkshire.</p>
+        </div>
+        <div class="footer__links">
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a>
+          <a href="breakfast-and-lunch-menu.html">Breakfast &amp; Lunch Menu</a>
+          <a href="evening-menu.html">Evening Menu</a>
+          <a href="sasas-bakes.html">Sasa's Bakes</a>
+          <a href="gallery.html">Food Gallery</a>
+          <a href="korean-fried-chicken.html">Korean Fried Chicken</a>
+          <a href="the-brand.html">Our Story</a>
+          <a href="events.html">Events</a>
+          <a href="reviews.html">Reviews</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="footer__contact">
+          <h4>Contact</h4>
+          <p>61 North Street, Keighley<br>West Yorkshire, BD21 3SL</p>
+          <p><a href="tel:01535670045">01535 670 045</a></p>
+          <p><a href="mailto:info@endlesskettle.com">info@endlesskettle.com</a></p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2024 The Endless Kettle Cafe Bistro Bar. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js?v=4"></script>
+</body>
+</html>
