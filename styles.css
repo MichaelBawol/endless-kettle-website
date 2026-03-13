@@ -220,6 +220,24 @@ a:hover {
   font-size: 6rem;
 }
 
+/* ── MENU CARD IMAGE STYLES ──────────────────────────────── */
+.menu__card-img {
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+  border-radius: var(--radius) var(--radius) 0 0;
+  display: block;
+}
+
+.menu__card-body {
+  padding: var(--space-md);
+}
+
+.menu__card:has(.menu__card-img) {
+  padding: 0;
+  overflow: hidden;
+}
+
 /* ── REAL IMAGE STYLES ─────────────────────────────────── */
 .about__img img {
   width: 100%;

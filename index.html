@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Caveat:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=5">
 
   <!-- Schema.org structured data -->
   <script type="application/ld+json">
@@ -16,7 +16,7 @@
     "@context": "https://schema.org",
     "@type": "Restaurant",
     "name": "The Endless Kettle Cafe Bistro Bar",
-    "image": "",
+    "image": "https://endless-kettle-website.vercel.app/images/hero-venue.jpg",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "61 North Street",
@@ -31,7 +31,7 @@
     "priceRange": "$$",
     "openingHoursSpecification": [
       { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday","Thursday","Friday","Saturday"], "opens": "10:00", "closes": "15:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "15:00" }
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday","Monday","Tuesday"], "opens": "00:00", "closes": "00:00" }
     ],
     "aggregateRating": {
       "@type": "AggregateRating",
@@ -166,31 +166,43 @@
 
       <div class="menu__grid">
         <div class="menu__card" data-reveal>
-          <div class="menu__card-header">
-            <h3>The Rustic Breakfast</h3>
-            <span class="menu__card-tag">Fan Favourite</span>
+          <img src="images/gallery-1.jpg" alt="The Rustic Breakfast" loading="lazy" class="menu__card-img">
+          <div class="menu__card-body">
+            <div class="menu__card-header">
+              <h3>The Rustic Breakfast</h3>
+              <span class="menu__card-tag">Fan Favourite</span>
+            </div>
+            <p>Our signature full English with a rustic twist. Locally sourced sausages, crispy bacon, free-range eggs, grilled tomatoes, mushrooms, beans, toast &amp; black pudding.</p>
           </div>
-          <p>Our signature full English with a rustic twist. Locally sourced sausages, crispy bacon, free-range eggs, grilled tomatoes, mushrooms, beans, toast &amp; black pudding.</p>
         </div>
         <div class="menu__card" data-reveal>
-          <div class="menu__card-header">
-            <h3>Croque Madame</h3>
-            <span class="menu__card-tag">Chef's Pick</span>
+          <img src="images/gallery-4.jpg" alt="Croque Madame" loading="lazy" class="menu__card-img">
+          <div class="menu__card-body">
+            <div class="menu__card-header">
+              <h3>Croque Madame</h3>
+              <span class="menu__card-tag">Chef's Pick</span>
+            </div>
+            <p>A magnificent stack of toasted brioche, ham, melted gruyere, bechamel sauce, topped with a perfectly fried free-range egg.</p>
           </div>
-          <p>A magnificent stack of toasted brioche, ham, melted gruyere, bechamel sauce, topped with a perfectly fried free-range egg.</p>
         </div>
         <div class="menu__card" data-reveal>
-          <div class="menu__card-header">
-            <h3>Korean Rice Bowl</h3>
-            <span class="menu__card-tag">Gluten Free</span>
+          <img src="images/gallery-2.jpg" alt="Korean Rice Bowl" loading="lazy" class="menu__card-img">
+          <div class="menu__card-body">
+            <div class="menu__card-header">
+              <h3>Korean Rice Bowl</h3>
+              <span class="menu__card-tag">Gluten Free</span>
+            </div>
+            <p>Steamed rice with Korean fried chicken, pickled vegetables, sesame, spring onion, and gochujang mayo.</p>
           </div>
-          <p>Steamed rice with Korean fried chicken, pickled vegetables, sesame, spring onion, and gochujang mayo.</p>
         </div>
         <div class="menu__card" data-reveal>
-          <div class="menu__card-header">
-            <h3>Gourmet Burgers</h3>
+          <img src="images/gallery-10.jpg" alt="Gourmet Burgers" loading="lazy" class="menu__card-img">
+          <div class="menu__card-body">
+            <div class="menu__card-header">
+              <h3>Gourmet Burgers</h3>
+            </div>
+            <p>Hand-pressed beef patty, brioche bun, house slaw, and seasoned fries. Choose from classic, blue cheese, or Korean BBQ glaze.</p>
           </div>
-          <p>Hand-pressed beef patty, brioche bun, house slaw, and seasoned fries. Choose from classic, blue cheese, or Korean BBQ glaze.</p>
         </div>
       </div>
 
@@ -415,11 +427,11 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <p>&copy; 2025 The Endless Kettle Cafe Bistro Bar. All rights reserved.</p>
+        <p>&copy; 2026 The Endless Kettle Cafe Bistro Bar. All rights reserved.</p>
       </div>
     </div>
   </footer>
 
-  <script src="script.js?v=4"></script>
+  <script src="script.js?v=5"></script>
 </body>
 </html>
