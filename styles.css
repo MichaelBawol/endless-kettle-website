@@ -6,20 +6,20 @@
 
 /* ── CUSTOM PROPERTIES ───────────────────────────────── */
 :root {
-  /* Warm palette inspired by Victorian bank + cafe warmth */
-  --clr-bg:        #FAF6F1;
-  --clr-bg-alt:    #F0EAE0;
+  /* Bright warm palette — Josette-inspired elegance with EK character */
+  --clr-bg:        #FBF8F3;
+  --clr-bg-alt:    #F5F0E8;
   --clr-surface:   #FFFFFF;
-  --clr-text:      #2C2420;
-  --clr-text-muted:#6B5E54;
-  --clr-accent:    #B8562E;       /* warm terracotta */
-  --clr-accent-hover:#9A4524;
-  --clr-accent-light:#F5E6DE;
-  --clr-dark:      #1A1310;
-  --clr-dark-surface:#2C2420;
-  --clr-gold:      #C9A96E;
-  --clr-cream:     #FFF8F0;
-  --clr-plum:      #5C3D5E;       /* nod to existing purple brand */
+  --clr-text:      #3D3530;
+  --clr-text-muted:#8A7E74;
+  --clr-accent:    #B8862E;       /* warm bronze-gold */
+  --clr-accent-hover:#A07528;
+  --clr-accent-light:#F8F0E0;
+  --clr-dark:      #3D3530;
+  --clr-dark-surface:#4A3F38;
+  --clr-gold:      #C4A25C;
+  --clr-cream:     #FFFCF5;
+  --clr-plum:      #7A5D5E;       /* softer mauve */
 
   /* Typography */
   --ff-heading: 'Playfair Display', Georgia, serif;
@@ -175,7 +175,7 @@ a:hover {
   background: var(--clr-accent-hover);
   color: #fff;
   transform: translateY(-2px);
-  box-shadow: 0 8px 30px rgba(184, 86, 46, 0.3);
+  box-shadow: 0 8px 30px rgba(184, 134, 46, 0.3);
 }
 
 .btn--outline {
@@ -510,7 +510,7 @@ a:hover {
   justify-content: center;
   overflow: hidden;
   background:
-    linear-gradient(135deg, #1A1310 0%, #2C2420 40%, #3D2E28 70%, #1A1310 100%);
+    linear-gradient(135deg, #3D3530 0%, #5A4A40 40%, #6B5848 70%, #3D3530 100%);
 }
 
 /* Cursor-reveal food image layer */
@@ -540,8 +540,8 @@ a:hover {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse at 30% 50%, rgba(184, 86, 46, 0.15) 0%, transparent 60%),
-    radial-gradient(ellipse at 70% 30%, rgba(92, 61, 94, 0.1) 0%, transparent 50%);
+    radial-gradient(ellipse at 30% 50%, rgba(196, 162, 92, 0.12) 0%, transparent 60%),
+    radial-gradient(ellipse at 70% 30%, rgba(122, 93, 94, 0.08) 0%, transparent 50%);
   z-index: 2;
   pointer-events: none;
 }
@@ -554,7 +554,7 @@ a:hover {
   right: -200px;
   width: 600px;
   height: 600px;
-  border: 1px solid rgba(201, 169, 110, 0.08);
+  border: 1px solid rgba(196, 162, 92, 0.12);
   border-radius: 50%;
   z-index: 1;
 }
@@ -566,7 +566,7 @@ a:hover {
   left: -150px;
   width: 500px;
   height: 500px;
-  border: 1px solid rgba(201, 169, 110, 0.06);
+  border: 1px solid rgba(196, 162, 92, 0.08);
   border-radius: 50%;
   z-index: 1;
 }
@@ -895,7 +895,7 @@ a:hover {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse at 80% 50%, rgba(184, 86, 46, 0.2) 0%, transparent 60%);
+    radial-gradient(ellipse at 80% 50%, rgba(196, 162, 92, 0.15) 0%, transparent 60%);
 }
 
 .kfc__grid {
@@ -1557,7 +1557,7 @@ a:hover {
   justify-content: center;
   text-align: center;
   background:
-    linear-gradient(135deg, #1A1310 0%, #2C2420 40%, #3D2E28 70%, #1A1310 100%);
+    linear-gradient(135deg, #3D3530 0%, #5A4A40 40%, #6B5848 70%, #3D3530 100%);
   overflow: hidden;
 }
 
@@ -1565,8 +1565,8 @@ a:hover {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse at 30% 50%, rgba(184, 86, 46, 0.15) 0%, transparent 60%),
-    radial-gradient(ellipse at 70% 30%, rgba(92, 61, 94, 0.1) 0%, transparent 50%);
+    radial-gradient(ellipse at 30% 50%, rgba(196, 162, 92, 0.12) 0%, transparent 60%),
+    radial-gradient(ellipse at 70% 30%, rgba(122, 93, 94, 0.08) 0%, transparent 50%);
   z-index: 1;
 }
 
