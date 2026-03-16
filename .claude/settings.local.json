@@ -69,7 +69,11 @@
       "Bash(git commit:*)",
       "Bash(git branch:*)",
       "Bash(git remote:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(git config:*)",
+      "Bash(git credential-osxkeychain:*)",
+      "Bash(sed -i '' 's|styles.css?v=5|styles.css?v=6|g; s|script.js?v=5|script.js?v=6|g' *.html)",
+      "Bash(sed -i '' 's|styles.css?v=4|styles.css?v=6|g; s|script.js?v=4|script.js?v=6|g' *.html)"
     ]
   }
 }
