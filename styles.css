@@ -562,9 +562,9 @@ a:hover {
 /* Watercolour illustration */
 .hero__illustration {
   width: 100%;
-  max-width: 1200px;
-  margin: var(--space-lg) auto 0;
-  padding: 0 var(--space-sm);
+  max-width: none;
+  margin: var(--space-lg) 0 0;
+  padding: 0 var(--space-xs);
   animation: fadeInUp 1s var(--ease-out) 0.6s both;
 }
 
