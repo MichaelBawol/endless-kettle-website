@@ -518,13 +518,16 @@ a:hover {
   background: var(--clr-cream);
   padding-top: calc(var(--nav-height) + var(--space-md));
   padding-bottom: var(--space-lg);
+  position: relative;
 }
 
 .hero__content {
-  position: relative;
-  z-index: 2;
-  text-align: center;
-  padding: var(--space-md) var(--space-md) 0;
+  position: absolute;
+  z-index: 3;
+  text-align: left;
+  left: 12%;
+  top: calc(var(--nav-height) + var(--space-lg));
+  max-width: 380px;
 }
 
 .hero__tag {
@@ -534,6 +537,7 @@ a:hover {
   margin-bottom: var(--space-xs);
   letter-spacing: 0.1em;
   animation: fadeInUp 0.8s var(--ease-out) 0.2s both;
+  text-shadow: 0 1px 8px rgba(255,252,245,0.9);
 }
 
 .hero__title {
@@ -549,6 +553,7 @@ a:hover {
   letter-spacing: -0.02em;
   line-height: 1.1;
   animation: fadeInUp 0.8s var(--ease-out) 0.4s both;
+  text-shadow: 0 2px 20px rgba(255,252,245,0.95), 0 0 40px rgba(255,252,245,0.8);
 }
 
 .hero__title-line--accent {
@@ -557,15 +562,30 @@ a:hover {
   color: var(--clr-gold);
   font-size: clamp(3rem, 10vw, 6.5rem);
   animation-delay: 0.6s;
+  text-shadow: 0 2px 20px rgba(255,252,245,0.95), 0 0 40px rgba(255,252,245,0.8);
 }
 
 /* Watercolour illustration */
 .hero__illustration {
+  position: relative;
+  z-index: 1;
   width: 100%;
   max-width: none;
-  margin: var(--space-lg) 0 0;
+  margin: 0;
   padding: 0 var(--space-xs);
   animation: fadeInUp 1s var(--ease-out) 0.6s both;
+}
+
+.hero__illustration::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 25%;
+  background: linear-gradient(to bottom, var(--clr-cream) 0%, transparent 100%);
+  z-index: 2;
+  pointer-events: none;
 }
 
 .hero__watercolour {
